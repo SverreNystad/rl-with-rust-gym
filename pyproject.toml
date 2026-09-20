@@ -1,0 +1,21 @@
+[project]
+name = "rl_with_rust_gym"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+    "maturin>=1.15.0",
+]
+
+
+
+[build-system]
+requires = ["maturin>=1.15,<2.0"]
+build-backend = "maturin"
+
